@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} .*\.(jpg|jpeg|gif|png) [NC]
+RewriteCond %{HTTP_REFERER} !localhost [NC]
+RewriteRule .* No.png
